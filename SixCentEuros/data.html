@@ -1,7 +1,95 @@
 <html>
     <head>
+	<title>Stats Pumpkin</title>
         <meta charset="utf-8">
+		<!--Load the AJAX API-->
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     </head>
     <body>
+	<center>
+        <h1>Challenge des clubs Pumpkin</h1>
+        <img src="infographics/chargement.gif"></img>
+        <h2>Traitement des données, veuillez patienter</h2>
+        <div id="points_chart"></div>
+        <div id="utilisation_chart"></div>
+        <div id="activation_chart"></div>
+    </center>
+    
+    <div style="display:none">
+
+		<ul class="instance">
+			<li class="KPOTE">
+				<span class="utilisation">104</span>
+				<span class="activation">4</span>
+				<span class="points">124</span>
+			</li>
+			<li class="INSALAN">
+				<span class="utilisation">105</span>
+				<span class="activation">17</span>
+				<span class="points">190</span>
+			</li>
+			<li class="CLUB3D">
+				<span class="utilisation">49</span>
+				<span class="activation">11</span>
+				<span class="points">104</span>
+			</li>
+			<li class="FOG18">
+				<span class="utilisation">17</span>
+				<span class="activation">7</span>
+				<span class="points">52</span>
+			</li>
+			<li class="ROBOT">
+				<span class="utilisation">25</span>
+				<span class="activation">3</span>
+				<span class="points">40</span>
+			</li>
+			<li class="INSAKURA">
+				<span class="utilisation">33</span>
+				<span class="activation">6</span>
+				<span class="points">63</span>
+			</li>
+			<li class="LIVE">
+				<span class="utilisation">5</span>
+				<span class="activation">0</span>
+				<span class="points">5</span>
+			</li>
+			<li class="CLITO">
+				<span class="utilisation">23</span>
+				<span class="activation">0</span>
+				<span class="points">23</span>
+			</li>
+			<li class="RACLETTE18">
+				<span class="utilisation">22</span>
+				<span class="activation">0</span>
+				<span class="points">22</span>
+			</li>
+			<li class="BRICO19">
+				<span class="utilisation">14</span>
+				<span class="activation">1</span>
+				<span class="points">19</span>
+			</li>
+			<li class="RECYCLE">
+				<span class="utilisation">8</span>
+				<span class="activation">0</span>
+				<span class="points">8</span>
+			</li>
+			<li class="PUTACLIC">
+				<span class="utilisation">4</span>
+				<span class="activation">0</span>
+				<span class="points">4</span>
+			</li>
+			<li class="PHOTOVIDEO">
+				<span class="utilisation">9</span>
+				<span class="activation">0</span>
+				<span class="points">9</span>
+			</li>
+			<li class="TOUTSCHUSS">
+				<span class="utilisation">113</span>
+				<span class="activation">2</span>
+				<span class="points">123</span>
+			</li>
+		</ul>
+	</div>
+	<script src="code.js"></script>
 	</body>
 </html>
